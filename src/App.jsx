@@ -1,27 +1,13 @@
+import { Navbar } from "./components/layout/navbar/Navbar";
+
 function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+      <Navbar />
 
-        <a href="https://react.dev" target="_blank">
-          <img s rc={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <but ton onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </but>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h2 style={{ textAlign: "center", marginTop: "20%", height: "100vh" }}>
+        DY Insumos y servicios de maquinas Industriales
+      </h2>
     </>
   );
 }
